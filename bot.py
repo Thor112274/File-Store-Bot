@@ -468,7 +468,8 @@ async def button(bot: Client, cmd: CallbackQuery):
     try:
         await cmd.answer()
     except QueryIdInvalid: pass
-            if ON_HEROKU:
+        
+    if ON_HEROKU:
         asyncio.create_task(ping_server())
     me = await Bot.get_me()
     Bot.username = '@' + me.username
