@@ -319,7 +319,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         #InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://youtube.com/@Tech_VJ")
+                                            # url="https://youtube.com/@Tech_VJ")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
