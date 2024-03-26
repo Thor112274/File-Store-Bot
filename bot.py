@@ -40,6 +40,8 @@ from handlers.save_media import (
 
 MediaList = {}
 
+PORT = "8080"
+
 Bot = Client(
     name=Config.BOT_USERNAME,
     in_memory=True,
